@@ -1,2 +1,5 @@
-﻿  LoadInfo.cpp
-  Курсач денис матвей.vcxproj -> C:\Users\Admin\Desktop\Курсач денис матвей\Debug\Курсач денис матвей.exe
+﻿  Source.cpp
+C:\Users\Admin\Desktop\Cours-Work-Denis-Matvey\Source.cpp(21,30): warning C4101: PA: неиспользованная локальная переменная
+C:\Users\Admin\Desktop\Cours-Work-Denis-Matvey\Source.cpp(25,6): warning C4101: midsal: неиспользованная локальная переменная
+C:\Users\Admin\Desktop\Cours-Work-Denis-Matvey\Source.cpp(23,7): warning C4101: SelectedEmpl: неиспользованная локальная переменная
+  Курсач денис матвей.vcxproj -> C:\Users\Admin\Desktop\Cours-Work-Denis-Matvey\Debug\Курсач денис матвей.exe

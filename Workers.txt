@@ -1,2 +1,3 @@
-Vasilev_G.A.       2001 M 15 15100
-Ilkin_I.R.         2000 F 18 13200
+Vasilev_G.A.       2001 MALE   15 15100
+Ilkin_I.R.         2000 Female 18 13500
+Minigaliev_A.A.    2001 MALE   65 50000

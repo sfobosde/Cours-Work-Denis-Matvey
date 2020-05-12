@@ -6,10 +6,10 @@
 struct EMPLOYEE
 {
 	char name[20];
-	char bd[4];
-	char male;
-	char exp[2];
-	char salary[6];
+	int bd;
+	char male[6];
+	int exp;
+	int salary;
 	struct EMPLOYEE* next;
 };
 
@@ -51,12 +51,13 @@ void ShowAllWorkers(struct EMPLOYEE* X)
 	{
 		printf("\nName:");
 		printf(p->name);
-		printf("\tBirth:");
-		printf(p->bd);
-		printf(" Male:%c",p->male);
-		printf(" Work Exp:");
-		printf(p->exp);
+		printf(" Birth:");
+		printf("%d", p->bd);
+		printf(" Male:");
+		printf(p->male);
+		printf(" Work Exp:"); 
+		printf("%d", p->exp);
 		printf(" Salary:");
-		printf(p->salary);
+		printf("%d\n", p->salary);
 	}
 }
