@@ -123,11 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Arifmetics.cpp" />
     <ClCompile Include="LoadInfo.cpp" />
+    <ClCompile Include="RetirementAgeList.cpp" />
+    <ClCompile Include="SearchElement.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Arifmetics.h" />
     <ClInclude Include="LoadInfo.h" />
+    <ClInclude Include="RetirementAgeList.h" />
+    <ClInclude Include="SearchElement.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

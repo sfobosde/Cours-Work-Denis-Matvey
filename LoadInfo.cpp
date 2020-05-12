@@ -37,7 +37,7 @@ void LoadWorkersList(struct EMPLOYEE** X, char* FileName)
 	{
 		while (fgets(WI, 42, Workers) != NULL)
 		{
-			struct EMPLOYEE* pt = NULL;
+			struct EMPLOYEE* pt;
 			char buf[6];
 			pt = (struct EMPLOYEE*) malloc(sizeof(struct EMPLOYEE));
 			EditInfo(WI, pt->name);
@@ -47,11 +47,6 @@ void LoadWorkersList(struct EMPLOYEE** X, char* FileName)
 			EditInfo(WI, buf);
 			pt->exp = ConvetToInt(buf);
 			pt->salary = ConvetToInt(WI);
-			/*printf(pt->name);
-			printf("%d", pt->bd);
-			printf(pt->male);
-			printf("%d", pt->exp);
-			printf("%d\n", pt->salary);*/
 			pt->next = *X;
 			*X = pt;
 		}

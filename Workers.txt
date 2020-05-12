@@ -1,3 +1,8 @@
 Vasilev_G.A.       2001 MALE   15 15100
-Ilkin_I.R.         2000 Female 18 13500
+Ilkin_I.R.         2000 MALE   18 13500
 Minigaliev_A.A.    2001 MALE   65 50000
+Kuchkin_I.M.       1950 MALE   25 10000
+Savelyev_D.G.      1950 MALE   35 15800
+Kulikova_V.V.      1950 FEMALE 45 13000
+Valliulova_A.R.    2000 FEMALE 15 18000
+Gatina_F.A.        1950 FEMALE 12 19000
