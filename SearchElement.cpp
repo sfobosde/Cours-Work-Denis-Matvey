@@ -10,12 +10,14 @@ struct EMPLOYEE
 	int salary;
 	struct EMPLOYEE* next;
 };
+//printf info about selected worker
 void ShowInfoAboutWorker(struct EMPLOYEE* X, char* SelectedEmpl)
 {
-	struct EMPLOYEE* p;
+	struct EMPLOYEE* p;//new link to list to switch elements one be one
 	for (p = X; p != NULL; p = p->next)
-		if(strcmp(p->name, SelectedEmpl)==0)
+		if(strcmp(p->name, SelectedEmpl)==0)//selected name = employer name
 		{
+			//print data
 			printf("\nSelected worker:");
 			printf("\nName:");
 			printf(p->name);
